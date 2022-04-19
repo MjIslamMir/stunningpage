@@ -13,6 +13,7 @@
 
 }
 .navigation #logo img{
+    margin-left: 50px;
     height: 50px;
 }
 #menu ul li{
@@ -37,6 +38,7 @@
     width: 150px;
     text-align: center;
     padding-top: 15px;
+    margin-right: 50px;
 }
 .main{
     display: flex;
@@ -76,7 +78,7 @@
     padding: 10px;
     border-radius: 20px;
     /* border-spacing: 60px 20px; */
-    background-color:rgb(252, 247, 247);
+    background-color:rgb(238, 228, 228);
 }
 tr td{
     width:100px;
@@ -87,7 +89,13 @@ tr:hover {
 
 tr:hover td {
     background-color: transparent; /* or #000 */
+    border-radius: 5px;
 }
 .tick img:hover{
     content:url("Images/tick-blue.png");
+}
+.lastdiv{
+    width: 27px;
+    height: 15px; 
+    border-radius: 4px;
 }
